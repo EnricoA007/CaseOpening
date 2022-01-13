@@ -1,0 +1,11 @@
+name: Lottery
+author: Enrico_A007
+version: 1.0
+main: lottery.main.LotteryMain
+commands:
+     lottery:
+          description: The main command for the lottery
+          usage: /lottery <chest/manage>
+     case:
+          description: Add a case to a player
+          usage: /case <add/remove/set> <Amount> [<Player>]

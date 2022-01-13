@@ -1,0 +1,11 @@
+name: CaseOpening
+author: Enrico_A007
+version: 1.0
+main: caseopening.main.CaseOpeningMain
+commands:
+     caseopening:
+          description: The main command for the case opening
+          usage: /caseopening <chest/manage>
+     case:
+          description: Add a case to a player
+          usage: /case [<add/remove/set>] [<Amount>] [<Player>]
